@@ -1,17 +1,17 @@
 #a
-a1,b1=input().split()
-a1=int(a1)
+a,b1=input().split()
+a=int(a)
 b1=int(b1)
 s2=''
 u1=2
-if(a1+b1<=3):
-    for i in range(0,a1+b1):
+if(a+b1<=3):
+    for i in range(0,a+b1):
         if(i%2!=0):
             s2=s2+'0'
         else:
             s2=s2+'1'
 else:    
-    for i in range(0,a1+b1):
+    for i in range(0,a+b1):
         if(i==u1):
             s2=s2+'0'
             if(u1==b1):
